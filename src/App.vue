@@ -1,7 +1,26 @@
+<script>
+import { mapActions } from 'vuex'
+
+export default {
+  methods: {
+    ...mapActions('auth', ['fetchUsersFromJson'])
+  },
+  created() {
+    this.fetchUsersFromJson()
+  },
+}
+
+</script>
+
+
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link>|
+    <router-link to="/products">Productos</router-link>|
+    <router-link to="/cart">Carrito</router-link>|
+    <router-link to="/signup">Registrate</router-link>|
+    <router-link to="/login">Login</router-link>
   </nav>
   <router-view/>
 </template>

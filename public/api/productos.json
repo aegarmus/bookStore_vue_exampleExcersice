@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cien Años de Soledad",
+        "descripcion": "Una obra maestra de Gabriel García Márquez que narra la historia de la familia Buendía a lo largo de varias generaciones.",
+        "precio": 12000,
+        "stock": 50
+    },
+    {
+        "id": 2,
+        "nombre": "Don Quijote de la Mancha",
+        "descripcion": "La célebre novela de Miguel de Cervantes sobre las aventuras del ingenioso hidalgo Don Quijote y su fiel escudero Sancho Panza.",
+        "precio": 15000,
+        "stock": 40
+    },
+    {
+        "id": 3,
+        "nombre": "1984",
+        "descripcion": "La distópica novela de George Orwell que explora temas de totalitarismo y vigilancia.",
+        "precio": 10000,
+        "stock": 30
+    },
+    {
+        "id": 4,
+        "nombre": "Matar a un Ruiseñor",
+        "descripcion": "Harper Lee nos lleva al sur de Estados Unidos para explorar temas de racismo y justicia a través de los ojos de Scout Finch.",
+        "precio": 8000,
+        "stock": 20
+    },
+    {
+        "id": 5,
+        "nombre": "El Gran Gatsby",
+        "descripcion": "F. Scott Fitzgerald retrata el sueño americano y la decadencia de los años 20 en esta famosa novela.",
+        "precio": 7000,
+        "stock": 100
+    },
+    {
+        "id": 6,
+        "nombre": "Orgullo y Prejuicio",
+        "descripcion": "Jane Austen nos presenta una crítica social a través de la historia de amor entre Elizabeth Bennet y Mr. Darcy.",
+        "precio": 9000,
+        "stock": 10
+    },
+    {
+        "id": 7,
+        "nombre": "Crimen y Castigo",
+        "descripcion": "Fiódor Dostoyevski explora la psicología de un hombre atormentado por su crimen en esta obra maestra de la literatura rusa.",
+        "precio": 11000,
+        "stock": 60
+    },
+    {
+        "id": 8,
+        "nombre": "El Hobbit",
+        "descripcion": "J.R.R. Tolkien nos lleva a un viaje épico con Bilbo Bolsón en busca del tesoro custodiado por el dragón Smaug.",
+        "precio": 13000,
+        "stock": 70
+    },
+    {
+        "id": 9,
+        "nombre": "En el Camino",
+        "descripcion": "Jack Kerouac narra la búsqueda de la libertad y la aventura en la América de los años 50.",
+        "precio": 8500,
+        "stock": 80
+    },
+    {
+        "id": 10,
+        "nombre": "Ulises",
+        "descripcion": "James Joyce nos ofrece una reinterpretación moderna de la Odisea en el Dublín de principios del siglo XX.",
+        "precio": 14000,
+        "stock": 90
+    },
+    {
+        "id": 11,
+        "nombre": "La Metamorfosis",
+        "descripcion": "Franz Kafka relata la historia de Gregor Samsa, quien se despierta una mañana convertido en un insecto gigante.",
+        "precio": 6000,
+        "stock": 15
+    },
+    {
+        "id": 12,
+        "nombre": "El Principito",
+        "descripcion": "Antoine de Saint-Exupéry nos presenta un cuento filosófico sobre la vida y el amor a través de los ojos de un niño príncipe.",
+        "precio": 5000,
+        "stock": 5
+    },
+    {
+        "id": 13,
+        "nombre": "Fahrenheit 451",
+        "descripcion": "Ray Bradbury nos lleva a un futuro donde los libros están prohibidos y los bomberos queman los pocos ejemplares que quedan.",
+        "precio": 7000,
+        "stock": 95
+    },
+    {
+        "id": 14,
+        "nombre": "El Guardián entre el Centeno",
+        "descripcion": "J.D. Salinger nos cuenta la historia de Holden Caulfield, un adolescente rebelde en busca de sentido.",
+        "precio": 7500,
+        "stock": 85
+    },
+    {
+        "id": 15,
+        "nombre": "El Señor de los Anillos",
+        "descripcion": "J.R.R. Tolkien nos sumerge en la épica aventura de Frodo y sus amigos para destruir el Anillo Único.",
+        "precio": 20000,
+        "stock": 75
+    },
+    {
+        "id": 16,
+        "nombre": "La Odisea",
+        "descripcion": "Homero narra el legendario viaje de Odiseo para regresar a casa tras la guerra de Troya.",
+        "precio": 5000,
+        "stock": 65
+    },
+    {
+        "id": 17,
+        "nombre": "Las Aventuras de Huckleberry Finn",
+        "descripcion": "Mark Twain nos presenta la historia de Huck y su viaje por el río Misisipi en busca de libertad.",
+        "precio": 6000,
+        "stock": 55
+    },
+    {
+        "id": 18,
+        "nombre": "Drácula",
+        "descripcion": "Bram Stoker nos presenta al icónico vampiro en una novela llena de misterio y terror.",
+        "precio": 9000,
+        "stock": 45
+    },
+    {
+        "id": 19,
+        "nombre": "Frankenstein",
+        "descripcion": "Mary Shelley narra la historia del Dr. Frankenstein y su criatura en esta pionera obra de ciencia ficción.",
+        "precio": 7500,
+        "stock": 35
+    },
+    {
+        "id": 20,
+        "nombre": "Moby Dick",
+        "descripcion": "Herman Melville nos lleva a la caza obsesiva de la gran ballena blanca, Moby Dick.",
+        "precio": 8500,
+        "stock": 25
+    }
+]
