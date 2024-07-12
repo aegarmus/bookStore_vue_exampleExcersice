@@ -21,8 +21,12 @@ export default {
 <style scoped>
 button {
     border-radius: 15px;
-    background-color: #549a56;
-    color: #eee;
+    background-color: var(--primary-color500);
+    color: var(--neutral-color-light500);
+
+    font: var(--secondary-font);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
 
     padding: .5rem 1rem;
     border: none;
