@@ -7,6 +7,7 @@ const state = {
 
 const getters = {
     allProducts: (state) => state.products,
+    bookGenres: (state) => new Set(state.products.map((book) => book.genero)),
 };
 
 const mutations = {
