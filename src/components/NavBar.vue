@@ -19,7 +19,7 @@ export default {
         }
     },
     computed: {
-        ...mapGetters('auth', ['isAuthenticated'])
+        ...mapGetters('auth', ['isAuthenticated', 'isAdmin'])
     },
     methods: {
         ...mapActions('auth', ['logout']),
@@ -46,6 +46,7 @@ export default {
                 <router-link to="/about" class="navbar-item">Sobre Nosotros</router-link>
                 <router-link to="/products" class="navbar-item">Productos</router-link>
                 <router-link to="/cart" class="navbar-item">Carrito</router-link>
+                <router-link v-if="isAdmin" to="/admin/books" class="navbar-item">Admin</router-link>
             </div>
 
             <div class="navbar-end-aside">

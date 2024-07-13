@@ -1,6 +1,8 @@
 <script>
 import AddToCartButton from './AddToCartButton.vue'
 
+import { formatPrice } from '@/utils/formatPrice';
+
 export default {
     props: {
         product: {
@@ -14,7 +16,8 @@ export default {
     methods: {
         addToCart() {
             this.$emit('add-to-cart', this.product)
-        }
+        },
+        formatPrice
     }
 }
 </script>
@@ -30,7 +33,7 @@ export default {
         <div class="card__body">
             <p>{{ product.descripcion }}</p>
             <div>
-                <p>precio {{ product.precio }}</p>
+                <p>precio: {{ formatPrice(product.precio) }}</p>
                 <p>Stock Disponible: {{ product.stock }} </p>
             </div>
         </div>

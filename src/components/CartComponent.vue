@@ -1,12 +1,15 @@
 <script>
 import { mapGetters, mapActions } from 'vuex';
 
+import { formatPrice } from '@/utils/formatPrice';
+
 export default {
     computed: {
         ...mapGetters('cart', ['cartProducts', 'cartTotal'])
     },
     methods: {
-        ...mapActions('cart', ['removeFromCart'])
+        ...mapActions('cart', ['removeFromCart']),
+        formatPrice
     }
 }
 </script>
@@ -32,13 +35,13 @@ export default {
                         <td>{{ product.id }}</td>
                         <td>{{ product.nombre }}</td>
                         <td>{{ product.stock }}</td>
-                        <td>{{ product.precio }}</td>
+                        <td>{{ formatPrice(product.precio) }}</td>
                         <td><button @click="removeFromCart(product)">Eliminar</button></td>
                     </tr>
                 </tbody>
             </table>
             <div>
-                <p>Total: <span>{{ cartTotal }}</span></p>
+                <p>Total: <span>{{ formatPrice(cartTotal) }}</span></p>
             </div>
         </div>
     </div>

@@ -6,10 +6,11 @@ const state = {
 };
 
 const getters = {
-    getUser: state => state.user,
-    isAuthenticated: state => !!state.user,
-    getUsers: state => state.users
-}
+    getUser: (state) => state.user,
+    isAuthenticated: (state) => !!state.user,
+    isAdmin: (state) => !!state.user?.adminStatus,
+    getUsers: (state) => state.users,
+};
 
 const mutations = {
     setUser: (state, user) => state.user = user,
