@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "img": "/img/products/libro_1.webp",
+        "nombre": "Cien Años de Soledad",
+        "descripcion": "Una obra maestra de Gabriel García Márquez que narra la historia de la familia Buendía a lo largo de varias generaciones.",
+        "precio": 12000,
+        "stock": 50,
+        "genero": "Realismo mágico"
+    },
+    {
+        "id": 2,
+        "img": "/img/products/libro_2.jpeg",
+        "nombre": "Don Quijote de la Mancha",
+        "descripcion": "La célebre novela de Miguel de Cervantes sobre las aventuras del ingenioso hidalgo Don Quijote y su fiel escudero Sancho Panza.",
+        "precio": 15000,
+        "stock": 40,
+        "genero": "Clásico"
+    },
+    {
+        "id": 3,
+        "img": "/img/products/libro_3.jpeg",
+        "nombre": "1984",
+        "descripcion": "La distópica novela de George Orwell que explora temas de totalitarismo y vigilancia.",
+        "precio": 10000,
+        "stock": 30,
+        "genero": "Distopía"
+    },
+    {
+        "id": 4,
+        "img": "/img/products/libro_4.jpg",
+        "nombre": "Matar a un Ruiseñor",
+        "descripcion": "Harper Lee nos lleva al sur de Estados Unidos para explorar temas de racismo y justicia a través de los ojos de Scout Finch.",
+        "precio": 8000,
+        "stock": 20,
+        "genero": "Ficción"
+    },
+    {
+        "id": 5,
+        "img": "/img/products/libro_5.jpeg",
+        "nombre": "El Gran Gatsby",
+        "descripcion": "F. Scott Fitzgerald retrata el sueño americano y la decadencia de los años 20 en esta famosa novela.",
+        "precio": 7000,
+        "stock": 100,
+        "genero": "Ficción"
+    },
+    {
+        "id": 6,
+        "img": "/img/products/libro_6.jpeg",
+        "nombre": "Orgullo y Prejuicio",
+        "descripcion": "Jane Austen nos presenta una crítica social a través de la historia de amor entre Elizabeth Bennet y Mr. Darcy.",
+        "precio": 9000,
+        "stock": 10,
+        "genero": "Romance"
+    },
+    {
+        "id": 7,
+        "img": "/img/products/libro_7.jpeg",
+        "nombre": "Crimen y Castigo",
+        "descripcion": "Fiódor Dostoyevski explora la psicología de un hombre atormentado por su crimen en esta obra maestra de la literatura rusa.",
+        "precio": 11000,
+        "stock": 60,
+        "genero": "Ficción"
+    },
+    {
+        "id": 8,
+        "img": "/img/products/libro_8.jpeg",
+        "nombre": "El Hobbit",
+        "descripcion": "J.R.R. Tolkien nos lleva a un viaje épico con Bilbo Bolsón en busca del tesoro custodiado por el dragón Smaug.",
+        "precio": 13000,
+        "stock": 70,
+        "genero": "Fantasía"
+    },
+    {
+        "id": 9,
+        "img": "/img/products/libro_9.jpeg",
+        "nombre": "En el Camino",
+        "descripcion": "Jack Kerouac narra la búsqueda de la libertad y la aventura en la América de los años 50.",
+        "precio": 8500,
+        "stock": 80,
+        "genero": "Ficción"
+    },
+    {
+        "id": 10,
+        "img": "/img/products/libro_10.jpg",
+        "nombre": "Ulises",
+        "descripcion": "James Joyce nos ofrece una reinterpretación moderna de la Odisea en el Dublín de principios del siglo XX.",
+        "precio": 14000,
+        "stock": 90,
+        "genero": "Clásico"
+    },
+    {
+        "id": 11,
+        "img": "/img/products/libro_11.jpeg",
+        "nombre": "La Metamorfosis",
+        "descripcion": "Franz Kafka relata la historia de Gregor Samsa, quien se despierta una mañana convertido en un insecto gigante.",
+        "precio": 6000,
+        "stock": 15,
+        "genero": "Ficción"
+    },
+    {
+        "id": 12,
+        "img": "/img/products/libro_12.webp",
+        "nombre": "El Principito",
+        "descripcion": "Antoine de Saint-Exupéry nos presenta un cuento filosófico sobre la vida y el amor a través de los ojos de un niño príncipe.",
+        "precio": 5000,
+        "stock": 5,
+        "genero": "Ficción"
+    },
+    {
+        "id": 13,
+        "img": "/img/products/libro_13.jpeg",
+        "nombre": "Fahrenheit 451",
+        "descripcion": "Ray Bradbury nos lleva a un futuro donde los libros están prohibidos y los bomberos queman los pocos ejemplares que quedan.",
+        "precio": 7000,
+        "stock": 95,
+        "genero": "Distopía"
+    },
+    {
+        "id": 14,
+        "img": "/img/products/libro_14.webp",
+        "nombre": "El Guardián entre el Centeno",
+        "descripcion": "J.D. Salinger nos cuenta la historia de Holden Caulfield, un adolescente rebelde en busca de sentido.",
+        "precio": 7500,
+        "stock": 85,
+        "genero": "Ficción"
+    },
+    {
+        "id": 15,
+        "img": "/img/products/libro_15.jpg",
+        "nombre": "El Señor de los Anillos",
+        "descripcion": "J.R.R. Tolkien nos sumerge en la épica aventura de Frodo y sus amigos para destruir el Anillo Único.",
+        "precio": 20000,
+        "stock": 75,
+        "genero": "Fantasía"
+    },
+    {
+        "id": 16,
+        "img": "/img/products/libro_16.jpeg",
+        "nombre": "La Odisea",
+        "descripcion": "Homero narra el legendario viaje de Odiseo para regresar a casa tras la guerra de Troya.",
+        "precio": 5000,
+        "stock": 65,
+        "genero": "Clásico"
+    },
+    {
+        "id": 17,
+        "img": "/img/products/libro_17.jpeg",
+        "nombre": "Las Aventuras de Huckleberry Finn",
+        "descripcion": "Mark Twain nos presenta la historia de Huck y su viaje por el río Misisipi en busca de libertad.",
+        "precio": 6000,
+        "stock": 55,
+        "genero": "Aventura"
+    },
+    {
+        "id": 18,
+        "img": "/img/products/libro_18.jpg",
+        "nombre": "Drácula",
+        "descripcion": "Bram Stoker nos presenta al icónico vampiro en una novela llena de misterio y terror.",
+        "precio": 9000,
+        "stock": 45,
+        "genero": "Terror"
+    },
+    {
+        "id": 19,
+        "img": "/img/products/libro_19.jpeg",
+        "nombre": "Frankenstein",
+        "descripcion": "Mary Shelley narra la historia del Dr. Frankenstein y su criatura en esta pionera obra de ciencia ficción.",
+        "precio": 7500,
+        "stock": 35,
+        "genero": "Terror"
+    },
+    {
+        "id": 20,
+        "img": "/img/products/libro_20.jpeg",
+        "nombre": "Moby Dick",
+        "descripcion": "Herman Melville nos lleva a la caza obsesiva de la gran ballena blanca, Moby Dick.",
+        "precio": 8500,
+        "stock": 25,
+        "genero": "Aventura"
+    }
+]
