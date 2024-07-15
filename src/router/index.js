@@ -3,6 +3,7 @@ import store from '../store'
 
 import HomeView from '../views/HomeView.vue'
 import AddProductView from '@/views/AddProductView.vue'
+import NotFound from '@/views/NotFound.vue'
 const ProductList = () => import('../views/ProductList.vue')
 const CartPage = () => import('../views/CartPage.vue')
 const RegisterView = () => import('../views/RegisterView.vue')
@@ -70,6 +71,11 @@ const routes = [
       requiresAuth: true,
       requireAdmin: true
     }
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'notFound',
+    component: NotFound
   }
 ]
 
